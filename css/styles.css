@@ -12,6 +12,8 @@ body {
 
 footer {
   background-color: #1F66FF;
+  text-align: center;
+  font-size: 15px;
 }
 
 img.header-picture {
@@ -40,4 +42,43 @@ img.header-picture {
 
 h4 {
   font-size: 50px;
+}
+
+.wrap {
+  min-height: calc(100vh - 51.6px);
+}
+
+.main-header {
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	margin-bottom: 30px;
+}
+
+.name,
+.main-nav li {
+	text-align: center;
+	background: lightblue;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.main-nav a {
+	font-size: .95em;
+	color: #3acec2;
+	text-transform: uppercase;
+}
+
+.main-nav a:hover {
+	color: #093a58;
+}
+
+.name,
+.main-nav,
+.main-nav li {
+  display: inline;
+  padding: 12px 15px;
+}
+
+.name {
+  margin-right: 503px;
 }
