@@ -1,0 +1,15 @@
+li.non-bullet {
+  list-style-type: none;
+}
+
+header {
+  background-color: #004AFD;
+}
+
+body {
+  background-color: #ADE1FF;
+}
+
+footer {
+  background-color: #1F66FF;
+}
