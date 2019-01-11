@@ -74,6 +74,12 @@ h4 {
 	color: #093a58;
 }
 
+.main-photo {
+  background-image: url("../img/milky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .name,
 .main-nav,
 .main-nav li {
